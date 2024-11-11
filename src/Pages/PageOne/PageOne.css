@@ -1,0 +1,18 @@
+/* Keyframe animation for arrow */
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px); /* Move arrow up */
+    }
+    100% {
+      transform: translateY(0); /* Return to original position */
+    }
+  }
+  
+  /* Apply bounce animation to the arrow image */
+  .arrow-animation {
+    animation: bounce 1s ease-in-out infinite;
+  }
+  
